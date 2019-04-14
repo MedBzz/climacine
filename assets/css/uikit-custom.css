@@ -1,0 +1,163 @@
+.uk-font-roboto * {
+    font-family: 'Roboto', sans-serif !important;
+}
+.uk-logo img {
+    height: 50px;
+}
+.uk-card-left {
+    padding-left: 0 !important;
+}
+.uk-card-right {
+    padding-right: 0 !important;
+}
+.uk-padding-small-bottom {
+    padding-bottom: 15px;
+}
+.uk-padding-small-top {
+    padding-top: 15px;
+}
+.uk-padding-medium-bottom {
+    padding-bottom: 22.5px;
+}
+.uk-padding-medium-top {
+    padding-top: 22.5px;
+}
+.uk-padding-large-bottom {
+    padding-bottom: 30px;
+}
+.uk-padding-large-top {
+    padding-top: 30px;
+}
+.uk-padding-right {
+    padding-right: 15px;
+}
+.uk-padding-left {
+    padding-left: 15px;
+}
+.uk-padding-vertical {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.uk-overlay-primary {
+    background: rgba(34, 34, 34, 0.4);
+}
+.uk-text-lead {
+    font-size: 1.3rem;
+}
+.uk-navbar-nav > li > a,
+.uk-navbar-item,
+.uk-navbar-toggle {
+    /* 2 */
+    min-height: 60px;
+    /* 3 */
+    font-size: 0.895rem;
+    font-weight: 500;
+}
+/* Headings
+ ========================================================================== */
+h1, .uk-h1,
+h2, .uk-h2,
+h3, .uk-h3,
+h4, .uk-h4,
+h5, .uk-h5,
+h6, .uk-h6 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+}
+
+@media (min-width: 1200px) {
+    .uk-position-large {
+      margin: 68px 78px;
+    }
+}
+.uk-position-medium {
+    margin: 30px 78px;
+}
+.uk-position-bottom-card {
+    bottom: 15px;
+    left: 0;
+    right: 0;
+}
+.uk-overlay-primary-card {
+    background: rgba(255, 255, 255, 0.8);
+    color: #0253B3 !important;
+}
+.uk-overlay-primary-card *{
+    color: #0253B3 !important;
+}
+.uk-color-white {
+    color: #fff !important;
+}
+.uk-color-first {
+    color: #0253B3 !important;
+}
+.uk-color-second {
+    color: #18A4E0 !important;
+}
+.uk-color-third {
+    color: #002C3E !important;
+}
+.uk-background-first {
+    background-color: #0253B3 !important;
+    color: #fff !important;
+}
+.uk-background-second {
+    background-color: #18A4E0 !important;
+}
+.uk-background-third {
+    background-color: #002C3E !important;
+}
+.uk-navbar-container:not(.uk-navbar-transparent) {
+    background: #0253B3;
+}
+.uk-navbar-nav > li > a {
+    color: #fff;
+}
+.uk-navbar-nav > li:hover > a,
+.uk-navbar-nav > li > a:focus,
+.uk-navbar-nav > li > a.uk-open {
+    color: #d2e9f3;
+}
+/* OnClick */
+.uk-navbar-nav > li > a:active {
+    color: #d2e9f3;
+}
+/* Active */
+.uk-navbar-nav > li.uk-active > a {
+    color: #d2e9f3;
+}
+.uk-height-medium-card {
+    height: 230px;
+}
+/* Items
+ ========================================================================== */
+.uk-breadcrumb > * > * {
+    display: inline-block;
+    font-size: 0.875rem;
+    color: #18A4E0;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+}
+/* Hover + Focus */
+.uk-breadcrumb > * > :hover,
+.uk-breadcrumb > * > :focus {
+    color: #0253B3;
+    text-decoration: none;
+}
+/* Disabled */
+/* Active */
+.uk-breadcrumb > :last-child > * {
+    color: #0253B3;
+}
+/*
+ * Divider
+ * `nth-child` makes it also work without JS if it's only one row
+ */
+.uk-breadcrumb > :nth-child(n+2):not(.uk-first-column)::before {
+    font-family: 'Fontawesome';
+    content: "\f105";
+    display: inline-block;
+    margin: 0 10px;
+    color: #18A4E0;
+}
