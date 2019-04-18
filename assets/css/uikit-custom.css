@@ -38,6 +38,12 @@
     padding-top: 15px;
     padding-bottom: 15px;
 }
+.uk-padding-remove-bottom {
+    padding-bottom: 0;
+}
+.uk-padding-remove-top {
+    padding-top: 0;
+}
 .uk-overlay-primary {
     background: rgba(34, 34, 34, 0.4);
 }
@@ -160,4 +166,37 @@ h6, .uk-h6 {
     display: inline-block;
     margin: 0 10px;
     color: #18A4E0;
+}
+.uk-section-contact {
+    margin-top: -50px !important;
+    z-index: 10 !important;
+    position: relative;
+}
+.uk-section-map {
+    z-index: 1 !important;
+    position: relative;
+}
+.mapouter {
+    position:relative;
+    text-align:right;
+    height:100%;
+    width:100%;
+}
+.gmap_canvas {
+    overflow:hidden;
+    background:none!important;
+    height:100%;
+    width:100%;
+}
+.uk-input,
+.uk-select,
+.uk-textarea {
+    border: 0 none;
+    /* 4 */
+    padding: 0 10px;
+    background: #fff;
+    color: #002C3E !important;
+    border: 1.5px solid #d2e9f3;
+    transition: 0.2s ease-in-out;
+    transition-property: color, background-color, border;
 }
